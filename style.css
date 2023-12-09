@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFC573;
+}
+header {
+    background-color: #00AC6B;
+    padding: 20px;
+}
+.pizza {
+    width: 191px;
+    height: 191px;
+}
+.pizzasphoto {
+    width: 345px;
+    height: 345px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+}
+.pizzasphoto:hover {
+    opacity: 1;
+    transition: 0.2s opacity linear;
+}
+.setyphoto {
+    opacity: 0.5;
+}
+.setyphoto:hover {
+    opacity: 1;
+    transition: 0.2s opacity linear;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    background-color: #FFB040;
+    padding: 14px;
+    color: black;
+    margin: 20px;
+    position: relative;
+    top: 50px;
+    flex-wrap: wrap;
+}
+nav a:hover {
+    background-color: #FFCF8B;
+    transition: 0.2s background-color linear;
+}
+header a:hover {
+    background-color: #FFCF8B;
+    transition: 0.2s background-color linear;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+}
+.butt {
+    position: relative;
+    top: 25px;
+    background-color: #FF9500;
+    color: black;
+    font-size: 50px;
+    padding: 15px 35px 15px 35px;
+}
+h1 {
+    text-align: center;
+    font-size: 128px;
+    margin-bottom: 10px;
+}
+.h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 200px;
+}
+.vyd {
+    font-size: 25px;
+    position: relative;
+    box-shadow: 0 3px 4px 3px gray;
+}
+.vyds {
+    position: relative;
+    bottom: 15px;
+    color: #555555;
+}
+
+
+.nava {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pizzas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.pizzasphoto
+.pizzaa {
+    text-align: center;
+}
+.sety {
+    display: flex;
+    justify-content: space-between;
+}
+.setya h2{
+    text-align: center;
+}
+.setya p{
+    text-align: center;
+}
+.setya {
+    margin: 50px;
+}
+footer {
+    display: flex;
+    background-image: linear-gradient(to right, black, #FFC573);
+    height: 200px;
+}
+.pro {
+    width: 250px;
+}
+.pizzaman {
+    position: absolute;
+    right: 0%;
+}
+.a {
+    margin-top: 20px;
+}
+.per {
+    color: #A15E00;
+    font-size: 20px;
+}
+.prop {
+    color: #ACACAC;
+}
+
