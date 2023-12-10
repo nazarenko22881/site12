@@ -6,6 +6,16 @@ header {
     background-color: #00AC6B;
     padding: 20px;
 }
+iframe {
+    width: 100%;
+    margin: 20px 0 30px 0;
+}
+.navnav {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    height: 90px;
+}
 .pizza {
     width: 191px;
     height: 191px;
@@ -54,6 +64,12 @@ header a:hover {
     height: 100px;
     padding-right: 50px;
 }
+.logo:hover {
+    width: 150px;
+    height: 150px;
+    transition: 1s width linear;
+    transition: 1s height linear;
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -87,8 +103,6 @@ h1 {
     bottom: 15px;
     color: #555555;
 }
-
-
 .nava {
     display: flex;
     justify-content: space-between;
@@ -96,12 +110,15 @@ h1 {
 }
 .pizzas {
     display: flex;
-    justify-content: space-between;
     margin-top: 40px;
+    width: 600px;
 }
-.pizzasphoto
+.pizzaa img {
+    margin: 5px;
+}
 .pizzaa {
     text-align: center;
+    flex-wrap: wrap;
 }
 .sety {
     display: flex;
@@ -137,5 +154,22 @@ footer {
 }
 .prop {
     color: #ACACAC;
+}
+.yak {
+    font-size: 50px;
+    text-align: left;
+}
+.video {
+    background-color: #00AC6B;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    color: #FFCF8B;
+}
+.video:hover {
+    background-color: #FFCF8B;
+    color: #555555;
+    transition: 0.3s background-color linear;
+    transition: 0.3s color linear;
 }
 
